@@ -1,0 +1,115 @@
+/* Container for the CreateNotes form */
+.notes-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1.5px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Adjusted width for larger form */
+    background-color: white; /* Light background color */
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+/* Header style for the form */
+.notes-form-header {
+    color: rgb(43, 51, 106);
+    font-weight: 700;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px; /* Add space below header */
+}
+
+/* Label styling */
+label {
+    color: rgb(43, 51, 106);
+    font-weight: 700;
+    font-family: 'Arial', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block; /* Ensures labels appear on top of inputs */
+}
+
+/* Input field styles */
+.notes-form-input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff; /* White background */
+}
+
+/* Textarea styles (for content) */
+.notes-form-textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    min-height: 150px; /* Minimum height for text area */
+    background-color: #fff;
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Button styling */
+.notes-form-button {
+    width: 95%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 20px;
+}
+
+.notes-form-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* File input (Photo upload) */
+.notes-form-file-input {
+    margin: 10px 0;
+    width: 90%;
+}
+
+.notes-form-duration,
+.notes-form-date,
+.notes-form-price {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Select (for categories) */
+.notes-form-select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* Additional styling for the link if needed */
+.notes-form-link {
+    color: rgb(43, 51, 106);
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.notes-form-link:hover {
+    color: #151418; /* Change color on hover */
+}

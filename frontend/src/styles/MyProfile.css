@@ -1,0 +1,133 @@
+.container{
+    padding: 1rem 2rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    border-radius: 20px;
+    margin-top: 30px;;}
+.notes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.view-order{
+    font-family: 'Arial', sans-serif; 
+    width:auto;
+    background-color: rgb(43, 51, 106);
+    border: 1px solid #ccc; /* Border for the note card */
+    padding:10px 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px; /* Rounded corners */
+    margin :0px 25px;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+
+}
+
+.detail-button-ticket{
+    font-family: 'Arial', sans-serif; 
+    width:auto;
+    background-color: rgb(43, 51, 106);
+    border: 1px solid #ccc; /* Border for the note card */
+    padding:10px 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px; /* Rounded corners */
+    margin:0% 32%;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.detail-button-ticket:hover{
+    color: #f0f0f0;
+    background-color: rgb(24, 32, 82);
+    cursor:pointer;
+    transform: scale(1.02,1.02);
+
+}
+.note-button-group{
+    display: flex;
+}
+.view-order:hover{
+    color: #f0f0f0;
+    background-color: rgb(24, 32, 82);
+    cursor:pointer;
+    transform: scale(1.02,1.02);
+
+
+}
+.create-note{
+    font-family: 'Arial', sans-serif; 
+    display:block;
+    background-color: rgba(23, 207, 146, 0.972);
+    border: 1px solid #ccc; /* Border for the note card */
+    padding: 10px 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px; /* Rounded corners */
+    margin :auto;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-weight: 700;
+}
+.create-note:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgba(18, 181, 127, 0.972);
+    transform: scale(1.02,1.02);
+    cursor: pointer;
+
+}
+.link-to-button{
+    text-decoration: none;
+}
+.note-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; /* Fixed width for uniformity */
+}
+
+.note-card-image {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+.note-card-info {
+    padding: 1rem;
+}
+
+.note-card-info h3 {
+    margin: 0 0 0.5rem;
+}
+
+.note-card-info p {
+    margin: 0.25rem 0;
+}
+
+.detail-link{
+text-decoration: none;
+}
+.detail-name{
+    color: rgb(43, 51, 106);
+    font-family: 'Arial', sans-serif; /* Change to your desired font */
+    font-size: 1.8rem; /* Change font size of links */
+    font-weight: 800;
+}
+.name{
+    color: rgb(43, 51, 106);
+    font-family: 'Arial', sans-serif; /* Change to your desired font */
+    font-size: 2.3rem; /* Change font size of links */
+    font-weight: 800;
+}
+.No-event{
+    font-family: 'Arial', sans-serif; 
+    display:block;
+    color: rgb(43, 51, 106); 
+    margin :auto;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 25px;
+ 
+}
+.tickets-list{
+}
+

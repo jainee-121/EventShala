@@ -1,0 +1,20 @@
+.main-home {  
+  padding: 1rem 2rem; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  border-radius: 20px;
+  margin-top: 30px;;
+}
+
+.home-photo{
+  height: 100%; 
+  width: 100%;
+  opacity: 0.3; 
+}
+
+.name-home {
+  color: rgb(43, 51, 106);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-weight: 900; /* Increase font-weight for bolder text */
+  font-size: 40px;
+}

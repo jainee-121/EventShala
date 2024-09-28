@@ -1,0 +1,23 @@
+/* CustomToastify.css */
+.Toastify__toast {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.Toastify__toast--success {
+    background-color: white;
+    color: rgb(43, 51, 106);
+}
+
+.Toastify__toast-progress {
+    background-color: rgb(43, 51, 106);
+}
+
+.Toastify__close-button {
+    color: rgb(43, 51, 106);
+}
+
+.Toastify__toast--error {
+    background-color: #dc3545;
+    color: white;
+}

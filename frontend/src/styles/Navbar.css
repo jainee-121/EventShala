@@ -1,0 +1,110 @@
+/* src/styles/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Light background color */
+    padding: 1rem 2rem; /* Top/bottom and left/right padding */
+    color: rgb(43, 51, 106);
+    position: relative; /* Keep it in normal document flow */
+    z-index: 10; /* Ensure it stays above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 20px;
+}
+
+.navbar-logo {
+    font-size: 1.8rem; /* Logo font size */
+    font-weight: 700; /* Logo font weight */
+    font-family: 'Arial', sans-serif; /* Change to your desired font */
+    background-color:rgba(23, 207, 146, 0.972);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 20px;
+}
+
+.navbar-logo:hover {
+    background-color:rgba(18, 181, 127, 0.972);
+    transform: scale(1.02,1.02);
+    cursor: pointer;
+}
+
+/* Updated styles for navbar links */
+.navbar-links {
+    display: flex;                     /* Use flexbox for links */
+    justify-content: center;           /* Center links horizontally */
+    flex: 2;                           /* Allow space for links */
+}
+.links-div {
+    padding-left:20%;
+    display: flex;                     /* Use flexbox for individual links */
+    gap: 20px;                         /* Add space between links */
+}
+.navbar-login{
+}
+.navbar-button{
+}
+
+.navbar-links a {
+    text-decoration: none; 
+    transition: color 0.3s; /* Smooth transition for hover effect */
+    font-family: 'Arial', sans-serif; /* Change to your desired font */
+    font-size: 1.3rem; /* Change font size of links */
+    font-weight: 700; /* Change font weight to make links bolder */
+    color: rgb(43, 51, 106);
+    text-shadow: 0.7px 0.7px  rgb(130, 133, 156);
+}
+
+.navbar-links a:hover {
+    color: rgb(20, 28, 80); /* Change color on hover */
+    transform: scale(1.02,1.02);
+}
+
+/* Button styles for Logout/Login */
+
+.navbar-links a {
+}
+
+
+.link-logo-navbar{
+    text-decoration: none;
+    color: rgb(43, 51, 106);
+
+}
+
+.navbar-button{
+    color:  rgb(43, 51, 106);
+    border-radius: 20px;
+    font-size: 20px;
+    border:0 none white;
+    background-color: white;
+    padding: 0%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+        align-items: flex-start; /* Align items to the start */
+        padding: 1rem; /* Adjust padding */
+    }
+
+    .navbar-logo {
+        font-size: 1.2rem; /* Smaller font size for the logo */
+        margin-bottom: 1rem; /* Space between logo and links */
+    }
+
+    .navbar-links {
+        flex-direction: column; /* Stack links vertically */
+        width: 100%; /* Make links full width */
+        margin-top: 1rem; /* Space between logo and links */
+    }
+
+    .navbar-links a,
+    .navbar-links button {
+        width: 100%; /* Full width for links and button */
+        text-align: center; /* Center text */
+        margin: 0; /* Reset margin for consistent spacing */
+        padding: 0.5rem 0; /* Padding for buttons/links */
+    }
+}

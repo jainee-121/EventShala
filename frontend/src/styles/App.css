@@ -1,0 +1,9 @@
+/* Add this to your global CSS or at the top of Navbar.css */
+body {
+
+}
+
+/* Optional: Ensure that the html and body take full height */
+html, body {
+    height: 100%; /* Full height */
+}
